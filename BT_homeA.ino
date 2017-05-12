@@ -1,8 +1,9 @@
+
 int val;
 
 void setup()
 {
-  Serial.begin(9600);//Change the baud rate value depending on the default baud rate of your bluetooth module
+  Serial.begin(38400);//Change the baud rate value depending on the default baud rate of your bluetooth module
 
   pinMode(2, OUTPUT);//Light1 pin
   pinMode(3, OUTPUT);//Light2 pin
@@ -28,7 +29,7 @@ void loop()
      if(val==51)//Turn Light2 ON
       digitalWrite(3,HIGH);
 
-      else if(val==52)//Turn Light2 OFF
+      else if(val==52)//Turn Light2 OFFz.k
          digitalWrite(3,LOW);
 
       if(val==53)//Turn Light3 ON
