@@ -29,7 +29,7 @@ void loop()
      if(val==51)//Turn Light2 ON
       digitalWrite(3,HIGH);
 
-      else if(val==52)//Turn Light2 OFFz.k
+      else if(val==52)//Turn Light2 OFF
          digitalWrite(3,LOW);
 
       if(val==53)//Turn Light3 ON
@@ -37,6 +37,7 @@ void loop()
 
       else if(val==54)//Turn Light3 OFF
           digitalWrite(4,LOW);
+
 
   }
 }
